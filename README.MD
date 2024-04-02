@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 <figcaption>App Preview 1</figcaption>
 <div align="center">
   <figure>
-    <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL_IOS_APP_gif.gif" width="300" alt="Image 1">
+    <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL1_IOS_APP_gif.gif" width="300" alt="Image 1">
   </figure>
 </div>
 
