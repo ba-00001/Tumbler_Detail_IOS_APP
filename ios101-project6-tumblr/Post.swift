@@ -32,3 +32,5 @@ struct Photo: Decodable {
 struct PhotoInfo: Decodable {
     let url: URL
 }
+
+

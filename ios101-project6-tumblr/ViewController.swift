@@ -17,12 +17,19 @@ class ViewController: UIViewController, UITableViewDataSource {
 
         tableView.dataSource = self
         fetchPosts()
+   
 
     }
+    
+
+
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
+    
+
+
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as! PostCell
@@ -77,5 +84,21 @@ class ViewController: UIViewController, UITableViewDataSource {
             }
         }
         session.resume()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Check the segue identifier
+        if segue.identifier == "showDetail" {
+            // Get the selected post
+            guard let selectedIndexPath = tableView.indexPathForSelectedRow else { return }
+            
+            let selectedPost = posts[selectedIndexPath.row]
+            
+            // Get access to the DetailViewController and pass the selected post
+            guard let detailViewController = segue.destination as? DetailViewController else {return}
+            
+            detailViewController.post = selectedPost
+            }
+        
     }
 }
