@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
- <img src="" width="300" alt="App GIF preview">
+ <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL1_IOS_APP_gif.gif" width="300" alt="App GIF preview">
 
 ## App Preview
 
@@ -33,16 +33,11 @@ The following **additional** features are implemented:
 <figcaption>App Preview 1</figcaption>
 <div align="center">
   <figure>
-    <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL1_IOS_APP_gif.gif" width="300" alt="Image 1">
+    <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL_IOS_APP_IMAGE1.png" width="300" alt="Image 1">
   </figure>
 </div>
 
-  <figcaption align="center">App Preview 2</figcaption>
-  <div align="center">
-  <figure>
-    <img src="https://github.com/ba-00001/Tumbler_Detail_IOS_APP/blob/main/TUMBLR_DETAIL_IOS_APP_IMAGE1.png" width="300" alt="Image 2">
-  </figure>
-</div>
+ 
 ## Notes
 
 One challenge was ensuring smooth data passing between the Feed and Detail View Controllers, especially when dealing with asynchronous image loading. Another hurdle was dynamically resizing the text view based on the length of the post's caption to ensure a clean UI.
